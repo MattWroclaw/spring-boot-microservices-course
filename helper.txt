@@ -1,0 +1,7 @@
+1. Run microservice with parameter. Go to the folder with POM file and run the following command:
+mvn spring-boot:run -D"spring-boot.run.arguments=--spring.application.instance_id=myInstanceName"
+
+2. Passing the name and the port number of the microservice. Go to the folder with POM file and run the following command:
+ mvn spring-boot:run -D"spring-boot.run.arguments=--spring.application.instance_id=myInstanceName_8000, --server.port=8999"
+
+
